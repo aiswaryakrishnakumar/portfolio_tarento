@@ -49,3 +49,42 @@ nav {
     max-width: 100%;
     border-radius: 5px;
 }
+
+
+.skills {
+    padding: 2rem;
+    background: #f4f4f4;
+}
+
+.skill-item {
+    margin-bottom: 1rem;
+}
+
+.skill-bar {
+    height: 10px;
+    background: #ddd;
+    border-radius: 5px;
+}
+
+.skill-progress {
+    height: 100%;
+    border-radius: 5px;
+    background: #3498db;
+}
+
+.projects {
+    padding: 2rem;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.project-item {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 5px;
+}
